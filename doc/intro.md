@@ -1,3 +1,3 @@
-# Introduction to cheetah.slf4j.layout
+# Introduction to cheetah.logback.layout
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)

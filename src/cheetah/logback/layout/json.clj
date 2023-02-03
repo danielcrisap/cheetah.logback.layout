@@ -1,4 +1,4 @@
-(ns cheetah.slf4j.layout.json
+(ns cheetah.logback.layout.json
   (:require [clojure.data.json :as json])
   (:import [clojure.lang PersistentArrayMap]))
 

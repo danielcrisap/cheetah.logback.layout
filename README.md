@@ -1,8 +1,8 @@
-# cheetah.slf4j.layout
+# cheetah.logback.layout
 
-![cheetah](/doc/cheetah.jpg)
+![cheetah](./doc/cheetah.jpg)
 
-A SLF4J layout to be used to transform logs into JSON.
+A JSON Logback layout to be used to transform logs into JSON builed in Clojure.
 
 ## Installation
 

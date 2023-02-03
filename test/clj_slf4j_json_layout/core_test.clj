@@ -1,5 +1,5 @@
-(ns cheetah.slf4j.layout.core-test
-  (:require [cheetah.slf4j.layout.json :refer :all]
+(ns cheetah.logback.layout.core-test
+  (:require [cheetah.logback.layout.json :refer :all]
             [clojure.test :refer [deftest testing is]])
   (:import [ch.qos.logback.classic Level]
            [ch.qos.logback.classic.spi LoggingEvent]

@@ -1,6 +1,6 @@
-(defproject dev.danielcrisap/cheetah.slf4j.layout "0.1.0-SNAPSHOT"
+(defproject dev.danielcrisap/cheetah.logback.layout "0.1.0-SNAPSHOT"
   :description "A Clojure library that implements a SLF4J layout and transforms logs into JSON format"
-  :url "https://github.com/danielcrisap/cheetah.slf4j.layout"
+  :url "https://github.com/danielcrisap/cheetah.logback.layout"
   :license {:name "MIT"
             :url  "https://opensource.org/licenses/MIT"}
 
@@ -23,5 +23,5 @@
             "lint"         ["do" ["diagnostics"] ["format"] ["clean-ns"]]
             "lint-fix"     ["do" ["format-fix"] ["clean-ns-fix"]]}
 
-  :main ^:skip-aot cheetah.slf4j.layout.json
+  :main ^:skip-aot cheetah.logback.layout.json
   :target-path "target/%s")

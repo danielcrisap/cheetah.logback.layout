@@ -1,0 +1,8 @@
+{:user
+ {:aliases
+  {:format (clojure-lsp/format-buffer)
+   :diagnostics (clojure-lsp/diagnostics-buffer)}}
+ :lsp
+ {:server-id :clojure-lsp
+  :init-options {}
+  :command "clojure-lsp"}}
